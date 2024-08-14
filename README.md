@@ -36,5 +36,5 @@ envVars, err := dotenv.Parse(".env")
 To run the tests for this package, use the following command:
 
 ```bash
-go test -v ./...
+make test
 ```
